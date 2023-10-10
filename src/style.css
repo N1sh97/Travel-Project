@@ -1,4 +1,7 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  color: blue;
+:root {
+    --main-font:"Poppins", sans-serif;
+}
+
+h1,h3 {
+    font-family: var(--main-font);
 }
