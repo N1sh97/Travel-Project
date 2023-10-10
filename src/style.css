@@ -4,4 +4,23 @@
 
 h1,h3 {
     font-family: var(--main-font);
+    color: white;
+}
+
+p{
+    color: white;
+}
+header{
+     max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url("/images/nyc.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px 0;
 }
