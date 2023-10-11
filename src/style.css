@@ -6,10 +6,15 @@ body {
     font-family:"Poppins", sans-serif; 
 }
 
-h1,h3 {
+header h1 {
     font-family: var(--main-font);
     color: white;
 }
+header h3 {
+    font-family: var(--main-font);
+    color: white;
+}
+
 
 h1 {
     font-size: 60px;
@@ -54,7 +59,56 @@ header{
         padding: 60px 0;
 }
 
-@media (max-width:900px) {
+footer {
+     max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url("/images/morning.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 100px 0;
+}
+footer h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+}
+footer p {
+   font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+} 
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+footer ul {
+    padding: 0;
+}
+
+footer  li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section {
+    max-width: 1200px;
+    margin: auto 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+@media (max-width:960px) {
     header {
 padding: 60px 0;
 }
