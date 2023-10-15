@@ -137,9 +137,14 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;  
-  grid-gap: 20px;
-  grid-template-rows: 1fr;
+  grid-gap: 64px;
+}
+
+.grid-col{
+   grid-template-columns: 1fr 1fr;
+}
+.grid-col-1{
+    grid-template-columns: 1fr 2fr 2fr;
 }
 @media (max-width:960px) {
     header {
@@ -147,6 +152,10 @@ padding: 60px 0;
 }
 header h1 {
     font-size: 48px;
+}
+.grid{
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
 }
 
 }
