@@ -60,9 +60,9 @@ header{
 }
 
 section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
+ max-width: 100%;
+    margin: auto 0;
+    padding: 100px;
 }
 
 section p {
@@ -131,8 +131,14 @@ footer  li{
     padding: 0;
 }
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto 0;
+    padding: 100px;
+}
+
+section.secoudary {
+    background: cadetblue;
+    
 }
 
 .grid {
@@ -146,6 +152,20 @@ section {
 .grid-col-1{
     grid-template-columns: 1fr 2fr 2fr;
 }
+
+.grid-3-columns {
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+    background-color: white;
+}
+
+.card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5px;
+}
+
 @media (max-width:960px) {
     header {
 padding: 60px 0;
@@ -157,6 +177,5 @@ header h1 {
     grid-template-columns: 1fr;
     grid-gap: 32px;
 }
-
 
 }
