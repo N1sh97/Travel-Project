@@ -81,7 +81,7 @@ header {
 section {
   max-width: 1500px;
   margin: auto 0;
-  padding: 60px;
+  padding: 20px;
 }
 
 section p {
@@ -203,11 +203,11 @@ section.secoudary {
   color: white;
   font-weight: 700;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 16px;
+  padding: 20px;
   background-color: blueviolet;
 }
 
