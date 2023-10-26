@@ -159,9 +159,12 @@ section {
 }
 
 section.secoudary {
-  background: cadetblue;
+  background: #38598b;
   max-width: 100%;
   margin: auto 0;
+}
+section.secoudary h3 {
+  color:white ;
 }
 
 .grid {
@@ -208,7 +211,21 @@ section.secoudary {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 20px;
-  background-color: blueviolet;
+  background-color:#342056;
+}
+
+.section-third {
+  max-width: 1500px;
+  margin: auto 0;
+  padding: 20px;
+  background-color: #113f67;
+}
+
+.section-third h2 {
+  color: white;
+}
+.section-third h3 {
+  color: white;
 }
 
 @media (max-width: 960px) {
